@@ -379,6 +379,10 @@ span {
   text-indent: -999px;
 }
 
+.slick-active button {
+  background-color: #8f680c;
+}
+
 .about {
   padding: 60px 0 80px;
   color: #ffffff;
