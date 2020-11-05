@@ -88,8 +88,9 @@ span {
 .header__logo {
   font-family: "Exo 2", sans-serif;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 44px;
+  margin-right: 10px;
 }
 
 .header__contacts {
@@ -160,12 +161,14 @@ span {
   z-index: 1000;
 }
 
-.main__description {
+.main__description,
+.main__sale {
   margin-top: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
+  max-width: 600px;
 }
 
 .main {
@@ -188,11 +191,11 @@ span {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .services {
-  padding: 60px 0;
+  padding: 60px 0 80px;
 }
 
 .services__title {
@@ -214,7 +217,7 @@ span {
   font-size: 18px;
   line-height: 24px;
   font-weight: 300;
-  max-width: 600px;
+  max-width: 550px;
   color: #444444;
 }
 
@@ -276,6 +279,11 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.feature__item:hover .feature__item-img:hover {
+  background-color: #333;
+  cursor: pointer;
 }
 
 .feature__item-text {
