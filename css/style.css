@@ -353,8 +353,21 @@ span {
 
 .slick-dots {
   display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 30px;
+  outline: none;
 }
 
-.slick-dots li {
-  color: #333333;
+.slick-dots button {
+  list-style: none;
+  content: "";
+  background-color: #eda703;
+  color: transparent;
+  border-radius: 50%;
+  border: none;
+  margin-right: 15px;
+  height: 12px;
+  width: 12px;
+  text-indent: -999px;
 }
