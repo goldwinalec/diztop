@@ -278,12 +278,14 @@
         </h2>
         <div class="order__inner container">
             <form class="order__form">
-                <input class="order__form-name" type="text" placeholder="Имя" required>
-                <input class="order__form-phone" type="tel" placeholder="+79123456789" pattern="\+79[0-9]{9}|8[0-9]{10}" required>
-                <input class="order__form-email" type="email" placeholder="E-mail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$">
-                <textarea class="order__form-message" placeholder="Сообщение"></textarea>
+                <div class="order__input-group">
+                    <input class="order__form-name order__form-input" type="text" placeholder="Имя" required>
+                    <input class="order__form-phone order__form-input" type="tel" placeholder="+79123456789" pattern="\+79[0-9]{9}|8[0-9]{10}" required>
+                    <input class="order__form-email order__form-input" type="email" placeholder="E-mail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$">
+                    <textarea class="order__form-message" placeholder="Сообщение"></textarea>
+                </div>
                 <button class="order__form-btn" type="submit">Отправить</button>
-                <span class="order__form-text">Отправляя данную форму, вы соглашаетесь c Политикой конфиденциальности</span>
+                <span class="order__form-text">Отправляя данную форму, вы соглашаетесь c Политикой конфиденциальности.</span>
             </form>
         </div>
         <!-- /.order__inner container -->
