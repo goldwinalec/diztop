@@ -14,12 +14,17 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  line-height: 22px;
   font-weight: 400;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+span {
+  display: block;
 }
 
 .header__top{
@@ -48,4 +53,77 @@ a {
 .header__menu-item:hover{
   background-color: #db9a02;
   border-radius: 3px;
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__main{
+  padding: 40px 0;
+}
+
+.header__logo{
+  font-family: 'Exo 2',  sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.header__contacts{
+  display: flex;
+  align-items: center;
+}
+
+.header__phone-info{
+  display: block;
+}
+
+.header__address, .header__phone {
+  margin-right: 30px;
+  color: #222222;
+  font-weight: 500;
+  padding-left: 40px;
+  position: relative;
+}
+
+.header__address-info, .header__phone-info {
+  color: #6c757d;
+  font-weight: 400;
+}
+
+.header__address::before{
+  content: '';
+  position: absolute;
+  background: url(/images/map-pin.svg);
+  top: calc(50% - 14px);
+  left: 0;
+  width: 28px;
+  height: 28px;
+}
+.header__phone::before{
+  content: '';
+  position: absolute;
+  background: url(/images/call.svg);
+  top: calc(50% - 12px);
+  left: 0;
+  width: 23px;
+  height: 23px;
+}
+
+.header__callback{
+  background-color: #eda703;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 12px 26px;
+  border-radius: 23px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2)
+}
+
+.header__callback:hover{
+  background-color: #f7b519;
 }
