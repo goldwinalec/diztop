@@ -358,6 +358,10 @@ span {
   top: calc(50% - 1px);
 }
 
+.slick-slide:focus {
+  outline: none;
+}
+
 .slick-dots {
   display: flex;
   list-style: none;
@@ -377,6 +381,7 @@ span {
   height: 12px;
   width: 12px;
   text-indent: -999px;
+  outline: none;
 }
 
 .slick-active button {
