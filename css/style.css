@@ -680,6 +680,7 @@ span {
   .no-scroll {
     overflow: hidden;
     height: 100%;
+    width: 100%;
   }
 
   .header__main-inner {
