@@ -28,7 +28,7 @@ $(document).ready(function(){
     });
 
     $(".header__nav-toggle").on("click", function () {
-    window.onscroll = function () { window.scrollTo(0, 0); };  
+    $("body").toggleClass("no-scroll");
     $(".header__menu").toggleClass("visible");
     $(".header__nav-line").toggleClass("active");
  
@@ -37,7 +37,6 @@ $(document).ready(function(){
     $(".header__menu-link").on("click", function () {
         $(".header__menu").toggleClass("visible");
         $(".header__nav-line").toggleClass("active");
-        window.onscroll=function(){};
     });
       $(".top-btn").removeClass("visible");
 

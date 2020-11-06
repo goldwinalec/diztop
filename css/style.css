@@ -676,6 +676,12 @@ span {
   .header__contacts {
     display: none;
   }
+
+  .no-scroll {
+    overflow: hidden;
+    height: 100%;
+  }
+
   .header__main-inner {
     justify-content: center;
   }
