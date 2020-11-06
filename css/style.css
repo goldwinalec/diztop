@@ -508,14 +508,13 @@ span {
   bottom: 0;
   /* transform: translateY(-100%); */
   transition: transform 0.8s ease;
-  height: 100vh;
   overflow-y: auto;
 }
 
 .modal__inner {
   border-radius: 5px;
   background-color: #fff;
-  width: 600px;
+  width: 500px;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -524,7 +523,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
