@@ -779,14 +779,17 @@ span {
 }
 
 @media (max-width: 576px) {
-  .header__main-inner {
-    padding: 0;
-  }
   .container {
     max-width: 85%;
   }
+  .header__main-inner {
+    padding: 0;
+  }
   .header__logo {
     max-width: 100%;
+  }
+  .main {
+    padding: 100px 0;
   }
   .main__title {
     font-size: 27px;
