@@ -315,6 +315,7 @@ span {
   border-radius: 5px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   margin-right: 20px;
+  margin-bottom: 5px;
 }
 
 .feedback__img {
@@ -776,6 +777,9 @@ span {
   .order__form-text {
     text-align: center;
   }
+  .slick-dots {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -801,5 +805,8 @@ span {
   .services__img {
     margin-right: 0;
     margin-bottom: 30px;
+  }
+  .feedback__item {
+    margin-right: 1px;
   }
 }
