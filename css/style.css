@@ -810,4 +810,7 @@ span {
     margin-right: 10px;
     margin-left: 10px;
   }
+  .feedback__item-text {
+    line-height: 24px;
+  }
 }
