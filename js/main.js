@@ -54,7 +54,6 @@ $(document).ready(function(){
     $('.header__callback').click(function (){
         $('.modal').toggleClass('open');
         $('.modal__inner').toggleClass('open');
-
     })
 });
 
