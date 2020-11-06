@@ -715,7 +715,6 @@ span {
 
   .header__menu {
     display: none;
-    height: 100%;
   }
 
   .header__menu.visible {
