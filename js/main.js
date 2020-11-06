@@ -51,6 +51,11 @@ $(document).ready(function(){
     $(".top-btn").click(function () {
         $("html, body").animate({ scrollTop: 0 }, 1000);
     });
+    $('.header__callback').click(function (){
+        $('.modal').toggleClass('open');
+        $('.modal__inner').toggleClass('open');
+
+    })
 });
 
 function showAlert(){
