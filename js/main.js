@@ -12,7 +12,7 @@ $(document).ready(function(){
       breakpoint: 991,
       settings: {
         centerMode: true,
-        centerPadding: '10px',
+        centerPadding: '15px',
         slidesToShow: 2
       }
     },
@@ -20,7 +20,7 @@ $(document).ready(function(){
       breakpoint: 770,
       settings: {
         centerMode: true,
-        centerPadding: '40px',
+        centerPadding: '15px',
         slidesToShow: 1
       }
     }
