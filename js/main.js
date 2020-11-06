@@ -7,5 +7,31 @@ $(document).ready(function(){
     autoplay: true,
     autoplaySpeed: 10000,
     arrows: false,
+     responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        centerMode: true,
+        centerPadding: '10px',
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 770,
+      settings: {
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
     });
 });
+
+let menuToggle = document.querySelector('#header__nav-toggle');
+let menu = document.querySelector('.header__menu');
+
+menuToggle.addEventListener('click', function (event) {
+    event.preventDefault();
+    menu.classList.toggle('visible');
+})
