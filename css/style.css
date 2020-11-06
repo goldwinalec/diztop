@@ -663,14 +663,51 @@ span {
     width: 30px;
     height: 20px;
   }
-  .header__nav-toggle span {
+  .header__nav-line {
     height: 2px;
     width: 100%;
     background-color: #fff;
+    transition: all 0.3s;
   }
+
+  .header__nav-line:first-child.active {
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  .header__nav-line:nth-child(2).active {
+    opacity: 0;
+  }
+
+  .header__nav-line:last-child.active {
+    transform: translateY(-9px) rotate(135deg);
+  }
+
   .header__menu {
     display: none;
+    height: 100%;
   }
+
+  .header__menu.visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #eda703;
+  }
+
+  .header__menu-item + .header__menu-item {
+    margin-left: 0;
+  }
+
+  .header__menu-item {
+    margin-bottom: 40px;
+  }
+
   .header__top {
     padding: 20px 0;
   }

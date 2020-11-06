@@ -28,10 +28,14 @@ $(document).ready(function(){
     });
 });
 
-let menuToggle = document.querySelector('#header__nav-toggle');
+let menuToggle = document.querySelector('.header__nav-toggle');
 let menu = document.querySelector('.header__menu');
+let lines = document.querySelectorAll('.header__nav-line');
 
 menuToggle.addEventListener('click', function (event) {
     event.preventDefault();
     menu.classList.toggle('visible');
-})
+    for (let i = 0; i < lines.length; i++) {
+      lines[i].classList.toggle('active');
+    };
+});
