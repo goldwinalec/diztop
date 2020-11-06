@@ -280,7 +280,7 @@
             Готовы заказать?
             <span class="order__title-text">Оставьте заявку, и мы перезвоним в течение 30 минут</span>
         </h2>
-            <form class="order__form">
+            <form class="order__form" onsubmit="showAlert()">
                 <div class="order__input-group">
                     <input class="order__form-name order__form-input" type="text" placeholder="Имя" required>
                     <input class="order__form-phone order__form-input" type="tel" placeholder="+79123456789" pattern="\+79[0-9]{9}|8[0-9]{10}" required>
@@ -344,7 +344,7 @@
 			S92.974,256,102.4,256h136.533c9.426,0,17.067-7.641,17.067-17.067V102.4C256,92.974,248.359,85.333,238.933,85.333z" fill="#eda703"/>
                 </svg>
                 <div class="contacts__item-title">Режим работы</div>
-                <div class="contacts__item-text">Пн-Пт с 10:00 до 19:00</div>
+                <div class="contacts__item-text">Круглосуточно</div>
             </div>
             </div>
             <!-- /.contacts__items container -->
@@ -362,7 +362,35 @@
         </div>
         <!-- /.footer__inner container -->
     </footer>
-
+    <section class="modal">
+        <div class="modal__inner">
+            <div class="modal__top"><h2 class="modal__title">Оставить заявку</h2>
+            <a href="#" class="modal__close-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 492 492" width="10" height="10">
+                    <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                    c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                    c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                    L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                    c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                    c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                    c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z" />
+                </svg>  
+            </a>
+        </div>   
+            <form class="modal__form">
+                <div class="modal__input-group">
+                    <label class="modal__label" for="name-input">Как к вам обращаться</label><input class="modal__form-name modal__form-input" id="name-input" type="text" placeholder="Имя" required>
+                    <label class="modal__label" for="phone-input">Контактный телефон</label><input class="modal__form-phone modal__form-input" id="phone-input" type="tel" placeholder="+79123456789"
+                        pattern="\+79[0-9]{9}|8[0-9]{10}" required>
+                    <label class="modal__label" for="email-input">Контактный e-mail</label><input class="modal__form-email modal__form-input" id="email-input" type="email" placeholder="E-mail"
+                        pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$">
+                    <label class="modal__label" for="msg-input">Комментарий</label><textarea class="modal__form-message" id="msg-input"></textarea>
+                </div>
+                <button class="modal__form-btn" type="submit">Отправить</button>
+                <span class="modal__form-text">Отправляя данную форму, вы соглашаетесь c Политикой конфиденциальности.</span>
+            </form>
+        </div>
+    </section>
     <a class="top-btn" href="#"><img src="images/top-btn.svg" alt="Back to the top" class="top-btn-img"></button>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
