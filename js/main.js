@@ -13,13 +13,15 @@ $(document).ready(function(){
       settings: {
         centerMode: true,
         centerPadding: '15px',
-        slidesToShow: 2
+        slidesToShow: 2,
+        slidesToScroll: 2
       }
     },
     {
       breakpoint: 770,
       settings: {
-        slidesToShow: 1
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
     }
   ]
