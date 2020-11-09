@@ -1282,6 +1282,9 @@ width: 32%;
     font-size: 24px;
     line-height: 28px;
   }
+  .main__sale-text{
+  margin-top: 10px;
+}
 }
 
 @media (max-width: 440px) {
