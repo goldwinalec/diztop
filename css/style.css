@@ -297,6 +297,13 @@ span {
   background-color: #333333;
 }
 
+@supports (-webkit-overflow-scrolling: touch) {
+  .features, .about {
+  background-attachment: scroll;
+  }
+}
+
+
 .features::after {
   position: absolute;
   z-index: 0;
