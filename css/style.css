@@ -298,7 +298,10 @@ span {
 }
 
 @supports (-webkit-overflow-scrolling: touch) {
-  .features, .about {
+  .about {
+  background-attachment: scroll;
+  }
+  .features {
   background-attachment: scroll;
   }
 }
