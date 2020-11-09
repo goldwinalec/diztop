@@ -1284,7 +1284,7 @@ width: 32%;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
   .countdown-number + .countdown-number {
   margin-left: 5px;  
   }
