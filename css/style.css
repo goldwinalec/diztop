@@ -299,8 +299,7 @@ span {
 .features {
   padding: 60px 0 80px;
   color: #ffffff;
-  position: fixed;
-  background-attachment: scroll !important;
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
