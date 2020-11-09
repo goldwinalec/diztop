@@ -1183,9 +1183,10 @@ width: 32%;
 }
 
 .main__sale-title {
+  font-family: 'Exo 2', sans-serif;
   font-size: 30px;
   line-height: 38px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
   color: #2287da;
   text-transform: uppercase;
