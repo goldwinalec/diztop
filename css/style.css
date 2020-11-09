@@ -299,13 +299,15 @@ span {
 .features {
   padding: 60px 0 80px;
   color: #ffffff;
+  position: fixed;
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-background-sizebackground-size: cover;
+  background-size: cover;
+    -webkit-background-sizebackground-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-    background-size: cover;
+  background-image: url(/images/features.jpg);
   position: relative;
   z-index: 100;
   overflow: hidden;
@@ -546,6 +548,10 @@ span {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+    -webkit-background-sizebackground-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-image: url(/images/about-bg.jpg);
   position: relative;
   z-index: -2;
   overflow: hidden;
