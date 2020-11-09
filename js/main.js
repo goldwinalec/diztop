@@ -31,12 +31,12 @@ $(document).ready(function(){
     $("body").toggleClass("no-scroll");
     $(".header__menu").toggleClass("visible");
     $(".header__nav-line").toggleClass("active");
- 
     });
 
     $(".header__menu-link").on("click", function () {
         $(".header__menu").toggleClass("visible");
         $(".header__nav-line").toggleClass("active");
+        $("body").removeClass("no-scroll");
     });
       $(".top-btn").removeClass("visible");
 
