@@ -1168,8 +1168,8 @@ width: 32%;
 
 .main__sale {
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.85);
-  max-width: 500px;
+  background-color: rgb(255, 255, 255);
+  max-width: 420px;
   color: #333;
   margin-left: 15px;
   border-radius: 10px;
@@ -1206,7 +1206,7 @@ width: 32%;
 .countdown-number {
   padding: 10px;
   border-radius: 3px;
-  background:rgba(219, 173, 66, 0.8);
+  background:rgb(219, 173, 66);
   display: inline-block;
 }
 
