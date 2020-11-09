@@ -245,6 +245,7 @@ span {
   background-color: rgba(20, 20, 20, 0.5);
   max-width: 420px;
   border-radius: 10px;
+  border: 1px solid #eda703;
   color: #fff;
   text-align: center;
   min-height: 300px;
