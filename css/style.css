@@ -368,7 +368,6 @@ span {
     -webkit-background-sizebackground-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-image: url(/images/features.jpg);
   position: relative;
   z-index: 100;
   overflow: hidden;
@@ -619,7 +618,6 @@ span {
     -webkit-background-sizebackground-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-image: url(/images/about-bg.jpg);
   position: relative;
   z-index: -2;
   overflow: hidden;
