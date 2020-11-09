@@ -646,8 +646,7 @@ span {
 }
 
 .order__form-input {
-  -ms-flex-preferred-size: 31%;
-      flex-basis: 31%;
+width: 32%;
   padding: 10px 12px;
   border: 2px solid #ddd;
   font-size: 15px;
@@ -740,8 +739,6 @@ span {
 }
 
 .order__form-message {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
   width: 100%;
   padding: 10px 12px;
   margin: 30px 0;
@@ -753,8 +750,6 @@ span {
 
 .modal__form-input,
 .modal__form-message {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
   width: 100%;
   padding: 10px 12px;
   margin: 5px 0 20px;
