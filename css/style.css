@@ -1176,10 +1176,19 @@ width: 32%;
   color: #2287da;
   text-align: center;
   min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .main__sale-title {
@@ -1195,9 +1204,14 @@ width: 32%;
 .countdown {
   font-family: 'Roboto', sans-serif;
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   font-weight: 100;
   text-align: center;
   font-size: 30px;
@@ -1226,4 +1240,3 @@ width: 32%;
   padding-top: 5px;
   font-size: 16px;
 }
-
