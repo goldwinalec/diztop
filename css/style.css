@@ -298,7 +298,7 @@ span {
 .countdown-number {
   padding: 10px;
   border-radius: 3px;
-  background:rgb(219, 173, 66);
+  background:rgb(93, 163, 196);
   display: inline-block;
 }
 
@@ -309,7 +309,7 @@ span {
 .countdown-time {
   padding: 15px;
   border-radius: 3px;
-  background: #f0bc44;
+  background: #4397c4;
   display: inline-block;
 }
  
