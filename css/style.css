@@ -218,23 +218,6 @@ span {
   max-width: 600px;
 }
 
-.main__sale {
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.85);
-  max-width: 320px;
-  color: #333;
-  margin-left: 15px;
-  border-radius: 10px;
-  color: #2287da;
-}
-
-.main__sale-title {
-  font-size: 30px;
-  line-height: 38px;
-  font-weight: 500;
-  margin: 0;
-  color: #2287da;
-}
 
 .main {
   background-color: rgb(69, 68, 153);
@@ -1176,3 +1159,72 @@ width: 32%;
     line-height: 24px;
   }
 }
+
+.main__sale {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  max-width: 500px;
+  color: #333;
+  margin-left: 15px;
+  border-radius: 10px;
+  color: #2287da;
+}
+
+.main__sale-title {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin: 0;
+  color: #2287da;
+}
+
+.countdown {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+ 
+.countdown-number {
+  padding: 10px;
+  border-radius: 3px;
+  background:#c7941e;
+  display: inline-block;
+}
+ 
+.countdown-time {
+  padding: 15px;
+  border-radius: 3px;
+  background: #f0bc44;
+  display: inline-block;
+}
+ 
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.items{
+  color: #fff;
+   background-image: url(https://images.unsplash.com/photo-1604180540768-78abbc4ab189?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
