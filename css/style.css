@@ -1,3 +1,53 @@
+@font-face {
+  font-family: "Exo2-Medium";
+  font-weight: 500;
+  src: url("/fonts/Exo2-Medium.woff2") format("woff2"),
+    url("/fonts/Exo2-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Exo2-SemiBold";
+  font-weight: 600;
+  src: url("/fonts/Exo2-SemiBold.woff2") format("woff2"),
+    url("/fonts/Exo2-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Exo2-Bold";
+  font-weight: 700;
+  src: url("/fonts/Exo2-Bold.woff2") format("woff2"),
+    url("/fonts/Exo2-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Exo2-ExtraBold";
+  font-weight: 800;
+  src: url("/fonts/Exo2-ExtraBold.woff2") format("woff2"),
+    url("/fonts/Exo2-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto-Light";
+  font-weight: 300;
+  src: url("/fonts/Roboto-Light.woff2") format("woff2"),
+    url("/fonts/Roboto-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  font-weight: 400;
+  src: url("/fonts/Roboto-Regular.woff2") format("woff2"),
+    url("/fonts/Roboto-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  font-weight: 500;
+  src: url("/fonts/Roboto-Medium.woff2") format("woff2"),
+    url("/fonts/Roboto-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto-Italic";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/Roboto-Italic.woff2") format("woff2"),
+    url("/fonts/Roboto-Italic.woff") format("woff");
+}
+
 *,
 *::before,
 *::after {
@@ -8,10 +58,9 @@
 
 body {
   position: relative;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
   overflow-x: hidden;
   width: 100%;
   height: 100%;
@@ -35,8 +84,7 @@ span {
 }
 
 .title {
-  font-family: "Exo 2", sans-serif;
-  font-weight: 600;
+  font-family: "Exo2-SemiBold", sans-serif;
   font-size: 36px;
   line-height: 44px;
   text-align: center;
@@ -103,8 +151,7 @@ span {
 }
 
 .header__logo {
-  font-family: "Exo 2", sans-serif;
-  font-weight: 500;
+  font-family: "Exo2-Medium", sans-serif;
   font-size: 30px;
   line-height: 44px;
   margin-right: 10px;
@@ -127,7 +174,7 @@ span {
 .header__phone {
   margin-right: 30px;
   color: #222222;
-  font-weight: 500;
+  font-family: "Roboto-Medium", sans-serif;
   padding-left: 40px;
   position: relative;
 }
@@ -135,7 +182,7 @@ span {
 .header__address-info,
 .header__phone-info {
   color: #6c757d;
-  font-weight: 400;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 .header__address::before {
@@ -188,10 +235,9 @@ span {
 }
 
 .main__title {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo2-ExtraBold", sans-serif;
   font-size: 68px;
   line-height: 82px;
-  font-weight: 800;
   color: #ffffff;
   margin-top: 0;
   z-index: 1000;
@@ -206,8 +252,7 @@ span {
 
 .main__description {
   margin-top: 30px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-family: "Roboto-Light", sans-serif;
   font-size: 20px;
   line-height: 24px;
   max-width: 600px;
@@ -237,8 +282,7 @@ span {
 }
 
 .main__sale {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-family: "Roboto-Light", sans-serif;
   font-size: 20px;
   line-height: 24px;
   padding: 20px;
@@ -267,10 +311,9 @@ span {
 
 
 .main__sale-title {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Exo2-SemiBold', sans-serif;
   font-size: 30px;
   line-height: 38px;
-  font-weight: 600;
   margin: 0;
   color: #2287da;
   text-transform: uppercase;
@@ -283,14 +326,13 @@ span {
 
 .countdown {
   margin-top: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto-Light', sans-serif;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-weight: 100;
   text-align: center;
   font-size: 30px;
 }
@@ -346,9 +388,9 @@ span {
 }
 
 .services__text {
+  font-family: 'Roboto-Light', serif;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 300;
   max-width: 550px;
   color: #444444;
 }
@@ -499,10 +541,9 @@ span {
 }
 
 .feature__item-text {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo2-Regular", sans-serif;
   font-size: 23px;
   line-height: 35px;
-  font-weight: 400;
   text-align: center;
   cursor: default;
 }
@@ -543,23 +584,20 @@ span {
 }
 
 .feedback__item-text {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Italic", sans-serif;
   margin: 0;
   padding: 0;
-  font-style: italic;
   font-size: 18px;
   line-height: 32px;
   color: #222222;
-  font-weight: 300;
   margin-bottom: 15px;
 }
 
 .feedback__item-author {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Bold", sans-serif;
   font-size: 13px;
   line-height: 19px;
   color: #222222;
-  font-weight: 700;
   position: relative;
   padding-left: 15px;
 }
@@ -670,17 +708,15 @@ span {
 }
 
 .about__item-number {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo2-SemiBold", sans-serif;
   font-size: 56px;
   line-height: 84px;
-  font-weight: 600;
 }
 
 .about__item-text {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
   font-size: 18px;
   line-height: 32px;
-  font-weight: 300;
   text-align: center;
 }
 
@@ -693,10 +729,9 @@ span {
 }
 
 .order__title-text {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
   font-size: 18px;
   line-height: 32px;
-  font-weight: 300;
   padding: 0;
   margin-top: 20px;
 }
@@ -803,10 +838,9 @@ width: 32%;
 
 .modal__title,
 .modal__label {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo2-SemiBold", sans-serif;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 600;
   margin-top: 0;
   color: #333333;
 }
@@ -926,10 +960,9 @@ width: 32%;
 
 .contacts__address {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
   font-size: 18px;
   line-height: 32px;
-  font-weight: 300;
   margin-top: 15px;
 }
 
@@ -981,20 +1014,18 @@ width: 32%;
 }
 
 .contacts__item-title {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo2-SemiBold", sans-serif;
   font-size: 27px;
   line-height: 40px;
-  font-weight: 600;
   color: #eeeeee;
   margin-bottom: 15px;
   text-align: center;
 }
 
 .contacts__item-text {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
   font-size: 18px;
   line-height: 27px;
-  font-weight: 300;
   color: #cccccc;
   text-align: center;
 }
@@ -1014,7 +1045,7 @@ width: 32%;
 .footer__privacy {
   font-size: 14px;
   line-height: 25px;
-  font-weight: 300;
+  font-family: "Roboto-Light", sans-serif;
 }
 
 .header__nav-toggle {
@@ -1301,5 +1332,4 @@ width: 32%;
   .countdown-text{
     font-size: 12px;
   }
-
 }
