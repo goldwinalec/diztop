@@ -567,34 +567,16 @@ span {
   outline: none;
 }
 
-.slick-dots {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 30px;
-  outline: none;
+.owl-dot {
+    outline: none;
 }
 
-.slick-dots button {
-  list-style: none;
-  content: "";
-  background-color: #f0d493;
-  color: transparent;
-  border-radius: 50%;
-  border: none;
-  margin-right: 15px;
-  height: 12px;
-  width: 12px;
-  text-indent: -999px;
-  outline: none;
+.owl-dot span {
+  background-color: #f0d493 !important;
 }
 
-.slick-active button {
-  background-color: #eda703;
+.owl-dot.active span{
+  background-color: #eda703 !important;
 }
 
 .about {
