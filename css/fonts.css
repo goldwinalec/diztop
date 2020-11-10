@@ -1,4 +1,11 @@
 @font-face {
+  font-family: "Exo2-Regular";
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Exo2-Regular.woff2") format("woff2"),
+    url("/fonts/Exo2-Regular.woff") format("woff");
+}
+@font-face {
   font-family: "Exo2-Medium";
   font-weight: 500;
   font-display: swap;

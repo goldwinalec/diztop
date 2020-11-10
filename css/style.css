@@ -756,6 +756,7 @@ width: 32%;
   width: 500px;
   padding: 20px 0;
   margin: 0 auto;
+  margin-bottom: 20px;
   -webkit-transform: translateY(-100%);
       -ms-transform: translateY(-100%);
           transform: translateY(-100%);
