@@ -662,6 +662,7 @@ span {
 
 .order__title-text {
   font-family: "Roboto-Light", sans-serif;
+  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   padding: 0;
@@ -894,6 +895,7 @@ width: 32%;
 .contacts__address {
   text-align: center;
   font-family: "Roboto-Light", sans-serif;
+  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   margin-top: 15px;
